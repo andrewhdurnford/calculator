@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-around;
+  flex: auto;
+}
+
+.display {
+  display: flex;
+  height: 50px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: right;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
